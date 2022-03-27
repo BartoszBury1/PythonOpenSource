@@ -2,33 +2,34 @@
 
   ```
   # tworzymy środowisko dla pythona
-  $ python -m venv .venv
+  > python -m venv .venv
 
   # aktywujemy środowisko
-  $ source .venv/Scripts/activate
-  $ pip install -r requirements.txt
-  $ pip install -r test_requirements.txt
+  > source .venv/Scripts/activate
+  > pip install -r requirements.txt
+  > pip install -r test_requirements.txt
+  > pip install flask
 
   # zobacz czy jest zainstalowanie
-  $ pip list
+  > pip list
   ```
 
 - Uruchamianie applikacji:
 
   ```
-  $ PYTHONPATH=. FLASK_APP=hello_world flask run
+  > PYTHONPATH=. FLASK_APP=hello_world flask run
   ```
 
 - Aktywacja środowiska hermetycznego.
 
   ```
   # deaktywacja
-  $ deactivate
+  > deactivate
   ```
 
   ```
   ...
 
   # aktywacja 
-  $ source .venv/bin/activate
+  > source .venv/bin/activate
   ```
