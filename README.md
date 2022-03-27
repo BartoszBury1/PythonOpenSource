@@ -5,8 +5,8 @@
   > python -m venv .venv
 
   # aktywujemy środowisko
-  > source .venv/Scripts/activate
   > pip install -r requirements.txt
+  > set FLASK_APP=helloworld.py
 
   # zobacz czy jest zainstalowanie
   > pip list
@@ -15,7 +15,6 @@
 - Uruchamianie applikacji:
 
   ```
-  > set FLASK_APP=helloworld.py
   > python helloworld.py
   ```
 
