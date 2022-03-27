@@ -19,7 +19,7 @@
   $ PYTHONPATH=. FLASK_APP=hello_world flask run
   ```
 
-- Kontynuując pracę z projektem, aktywowanie hermetycznego środowiska dla aplikacji py:
+- Aktywacja środowiska hermetycznego.
 
   ```
   # deaktywacja
